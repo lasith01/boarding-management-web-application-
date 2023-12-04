@@ -1,0 +1,80 @@
+body{
+	margin: 0 auto;
+	display: flex;
+	background:url(img/campus.png);
+	background-size: 100% ;
+}
+.container
+{
+	width: 200px;
+	height: 350px;
+text-align: center;
+margin: 0 auto;
+margin-top: 100px;
+width: 23rem;
+border-radius: 25px;
+display: flex;
+justify-content:center;
+
+
+
+}
+
+
+
+.container img
+{
+	width: 550px;
+	height: 550px;
+	margin-top: -60px;
+	
+	
+}
+input[type="text"]{
+	margin-top: 30px;
+	height: 35px;
+	width: 200px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #c16161;
+	padding-left: 40px;
+}
+.card::before{
+	background: linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+z-index: 1;
+animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+	transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+	
+}
+
+ 
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+#a
+{
+	position: fixed;
+	top: 55%;
+	left: 0%;
+}
